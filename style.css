@@ -21,10 +21,11 @@ body {
 }
 .img-portfolio {
     margin: 0 auto;
+    padding-top: 25px;
 }
 
 .img-portfolio:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 /*  Social */
