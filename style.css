@@ -2,6 +2,10 @@ body {
     margin-bottom: 80px;
 }
 
+h3.project-section{
+    text-align:left;
+}
+
 .page-header{
     margin-top: 0;
 }
@@ -22,11 +26,32 @@ body {
 .img-portfolio {
     margin: 0 auto;
     padding-top: 25px;
+
 }
 
 .img-portfolio:hover {
     opacity: 0.5;
+    display: block;
 }
+
+.img-portfolio p {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+    
 
 /*  Social */
 #social {
