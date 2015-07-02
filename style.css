@@ -98,9 +98,13 @@ h3.project-section{
     border-right: 0px;
     border-top: 0px;
     background-color: white;
+    margin-bottom: 50px;
+    min-height: 100px;
+    
 }
 .navbar-brand {
-    
+    font-size: 25px;
+    line-height: 50px;
 }
 .container {
     width: 900px;
