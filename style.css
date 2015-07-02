@@ -116,3 +116,15 @@ h3.project-section{
 html {
   overflow-y: scroll;
 }
+h1{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+h2{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+h3{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+h4{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
