@@ -91,3 +91,8 @@ h3.project-section{
    -webkit-transition: width .2s;
    -webkit-transition: margin .2s;
 }
+.navbar {
+    border-radius: 0px;
+    border-bottom: 1px solid;
+    background-color: white;
+}
