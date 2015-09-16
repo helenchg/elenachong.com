@@ -16,6 +16,7 @@
 	overflow: hidden;
 	position: relative;
 	width: 360px;
+    border-radius:50%;
 }
  
 .photo-grid li:hover figcaption {
