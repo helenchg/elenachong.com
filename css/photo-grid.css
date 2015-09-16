@@ -17,6 +17,7 @@
 	position: relative;
 	width: 360px;
     border-radius:10%;
+    z-index: 2; /*to hide the corner scaling overflow*/
 }
  
 .photo-grid li:hover figcaption {
@@ -31,8 +32,7 @@
 	-moz-transition: all 300ms;
 	transition: all 300ms;
 	max-width: 100%;
-    overflow: hidden;
-/*    border-radius:10%;*/
+
 }
  
 .photo-grid li:hover img {
@@ -40,8 +40,6 @@
 	-webkit-transform: scale(1.4);
 	-moz-transform: scale(1.4);
 	transform: scale(1.4);
-
-/*    border-radius:5%;*/
 
 }
 .photo-grid figcaption p {
@@ -60,7 +58,6 @@
 	-moz-transform: translateY(40px);
 	-webkit-transform: translateY(40px);
 	transform: translateY(40px);
-    overflow: hidden;
 }
 .photo-grid figcaption {
 	background: rgba(0,0,5,0.7);
