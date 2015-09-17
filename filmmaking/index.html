@@ -2,8 +2,23 @@
 layout: default
 title: Elena's Project
 ---
-<link href="/css/photo-grid.css" rel="stylesheet">
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
         <div class = "container">
             <!-- content -->
 
@@ -14,7 +29,18 @@ title: Elena's Project
                 
                     <!--/section-->
                 <div class="row">
-            
+    <a class="fancybox-button" rel="fancybox-button" href="http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg" title="Rodeo Dusk (_JonathanMitchellPhotography_)">
+	<img src="http://farm8.staticflickr.com/7308/15783866983_27160395b9_m.jpg" alt="" />
+</a>
+<a class="fancybox-button" rel="fancybox-button" href="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg" title="Les papillons ont du chagrin (JMS')">
+	<img src="http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_m.jpg" alt="" />
+</a>
+<a class="fancybox-button" rel="fancybox-button" href="http://farm4.staticflickr.com/3857/14395875498_c43e5c4415_b.jpg" title="Chedder Gorge with goats looking (Si Photography)">
+	<img src="http://farm4.staticflickr.com/3857/14395875498_c43e5c4415_m.jpg" alt="" />
+</a>
+<a class="fancybox-button" rel="fancybox-button" href="http://farm8.staticflickr.com/7475/15723733583_b4a7b52459_b.jpg" title="Pudacuo (OsvinC)">
+	<img src="http://farm8.staticflickr.com/7475/15723733583_b4a7b52459_m.jpg" alt="" />
+</a>
                          <div class="embed-responsive embed-responsive-16by9">
 <iframe width="360" height="250" src="https://www.youtube.com/embed/kQe3vJzj7bs" frameborder="0" allowfullscreen></iframe>
          </div>
@@ -23,7 +49,11 @@ title: Elena's Project
 <iframe width="360" height="250" src="https://www.youtube.com/embed/3gVW9EY6h0c" frameborder="0" allowfullscreen></iframe>
          </div>
     
-                    
+           <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>         
                     <!-- PHOTO GRID END -->
     <!--        </div> -->
 </div>
