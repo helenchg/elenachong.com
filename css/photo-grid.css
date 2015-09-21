@@ -42,6 +42,8 @@
 	transform: scale(1.4);
 
 }
+
+
 .photo-grid figcaption p {
 	display: table-cell;
 	font-size: 1em;
@@ -87,16 +89,27 @@
 }
  
 .video-grid li {
-	border: 5px solid white;
+/*	border: 5px solid white;*/
 	display: inline-block;
 /*	margin: 1em;*/
-	width: 370px;
+	width: 360px;
+
 }
 
 #videotag {
     background-color: darkgrey;
     border-radius: 1%;
-    
+    padding: inherit;
+}
+.video-grid div{
+   line-height: 20px;
+   overflow: hidden;
+    padding: 5px;
+    word-wrap: break-word;
+}
+.video-grid p{
+    text-align: left; 
+    padding: 5px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
