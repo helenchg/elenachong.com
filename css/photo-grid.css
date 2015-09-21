@@ -93,11 +93,11 @@
 	width: 370px;
 }
 
-.video-grid div {
- background-color: darkgrey;
- 
+#videotag {
+    background-color: darkgrey;
+    border-radius: 1%;
+    
 }
-
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
 
