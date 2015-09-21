@@ -79,6 +79,26 @@
 	transition-delay: 100ms;
 	z-index: 100;
 }
+
+.video-grid {
+	margin: 1em auto;
+	max-width: 1220px;
+	text-align: center;
+}
+ 
+.video-grid li {
+	border: 5px solid white;
+	display: inline-block;
+/*	margin: 1em;*/
+	width: 370px;
+}
+
+.video-grid div {
+ background-color: darkgrey;
+ 
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
 
 p {

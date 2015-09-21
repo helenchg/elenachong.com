@@ -2,6 +2,8 @@
 layout: default
 title: Elena's Project
 ---
+<link href="/css/photo-grid.css" rel="stylesheet">
+
 <div class = "container">
     <!-- content -->
 
@@ -11,14 +13,25 @@ title: Elena's Project
             <hr class="small">
 
             <!--/section-->
-        <div class="row">                    
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="360" height="250" src="https://www.youtube.com/embed/kQe3vJzj7bs" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div class="responsive-video">
-                    <iframe width="360" height="250" src="https://www.youtube.com/embed/3gVW9EY6h0c" frameborder="0" allowfullscreen></iframe>
-                </div>
+<!--        <div class="row">    -->
+        <div class="col-md-6">
+            <ul class="photo-grid" style="padding-left:0px;">
+                <li>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="360" height="250" src="https://www.youtube.com/embed/kQe3vJzj7bs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </li>
+                <li>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="360" height="250" src="https://www.youtube.com/embed/kQe3vJzj7bs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </li>
+                <li>
+                    <div class="responsive-video">
+                        <iframe width="360" height="250" src="https://www.youtube.com/embed/3gVW9EY6h0c" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </li>
+            </ul>
         </div>
 </div>
         
