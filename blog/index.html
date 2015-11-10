@@ -1,5 +1,12 @@
 ---
-layout: default
-title: Blog
+layout: blog
+title: Elena Chong Loo
 ---
-  <script type=’text/javascript’ src=’http://helenchg.tumblr.com/js’></script>
+    
+    <script type="text/javascript">
+     // The variable "tumblr_api_read" is now set to your tumblr feed.
+     document.write(
+         '<a href="' + tumblr_api_read['posts'][0]['url'] + 
+         '">My most recent Tumblr post</a>'
+     );
+    </script>
