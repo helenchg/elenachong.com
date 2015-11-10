@@ -1,12 +1,52 @@
----
-layout: blog
-title: Elena Chong Loo
----
-    <script type="text/javascript" src="http://helenchg.tumblr.com/js"></script>
-    <script type="text/javascript">
-     // The variable "tumblr_api_read" is now set to your tumblr feed.
-     document.write(
-         '<a href="' helenchg + tumblr_api_read['posts'][0]['url'] + 
-         '">My most recent Tumblr post</a>'
-     );
-    </script>
+<html>
+  <head>
+    <title>Masonry Layout with Masonry Plugin</title>
+    <style>
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .item {
+        width:  50px;
+        height: 50px;
+        float: left;
+        background: #2296DD;
+        border: 2px solid #333;
+      }
+
+      .item.thumbnail {
+        width:  100px;
+        height: 100px;
+        background: #cfcfcf
+      }
+
+      .item.medium {
+        width:  150px;
+        height: 50px;
+        background: #A6E392
+      }
+
+      .item.large {
+        width:  200px;
+        height: 100px;
+        background: #D092E3
+      }
+    </style>
+  </head>
+  <body>
+    <div id='masonry'>
+      <div class="item">dsadasd</div>
+      <div class="item">lalalla</div>
+      <div class="item thumbnail">dd</div>
+      <div class="item medium">adasd</div>
+      <div class="item">dsdasd</div>
+      <div class="item large">dsadsa</div>
+      <div class="item">dasdasd</div>
+      <div class="item medium">dasdasdf</div>
+    </div>
+
+    <script src='masonry.pkgd.min.js'></script>
+  </body>
+</html>
