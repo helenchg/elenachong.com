@@ -4,7 +4,7 @@ title: Elena Chong Loo
 ---
 
 <div class = "container">
-    <h2>Selected Projects</h2>
+    <h2>Thoughts</h2>
     <div id="wrapper">
         <div id="columns">
             <div class="pin">
@@ -132,13 +132,29 @@ title: Elena Chong Loo
             </div>
 
             <div class="pin">
-                <img src="http://cssdeck.com/uploads/media/items/6/6f3nXse.png" />
+                <H4>Hello World!</H4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed feugiat consectetur pellentesque. Nam ac elit risus, 
-                    ac blandit dui. Duis rutrum porta tortor ut convallis.
+                    First mini blog.
                 </p>
             </div>
         </div>
     </div>
 </div>
+
+
+<script>
+        $( window ).load( function()
+        {
+            var columns    = 3,
+                setColumns = function() { columns = $( window ).width() > 640 ? 3 : $( window ).width() > 320 ? 2 : 1; };
+
+            setColumns();
+            $( window ).resize( setColumns );
+
+            $( '#list' ).masonry(
+            {
+                itemSelector: '.item',
+                columnWidth:  function( containerWidth ) { return containerWidth / columns; }
+            });
+        });
+ </script>
