@@ -114,6 +114,7 @@ h3.project-section{
 }
 .container {
     width: 900px;
+    background: white;
 }
 html {
   overflow-y: scroll;
