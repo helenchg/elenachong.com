@@ -2,8 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:700);
 body {
-
-    margin-bottom: 80px;
+	background: white;
+    margin-bottom: 50px;
 }   
 
 p {
