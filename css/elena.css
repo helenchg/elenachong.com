@@ -33,54 +33,10 @@
 }
 
 body {
-	background: url(http://subtlepatterns.com/patterns/scribble_light.png) ;
-}
+	background: url(/background/grey_wash_wall.png) ;
+}   
 
 
-#wrapper
-{
-    max-width: 60em; /* 960 px */
-    margin: 0 auto;
-}
-    #list
-    {
-        width: 103.125%; /* 990px */
-        overflow: hidden;
-        margin-left: -1.562%; /* 15px */
-        margin-bottom: -1.875em; /* 30px */
-    }
-        .item
-        {
-            width: 30.303%; /* 300px */
-            float: left;
-            margin: 0 1.515% 1.875em; /* 15px 30px */
-        }
- 
-@media only screen and ( max-width: 40em ) /* 640px */
-{
-    .item
-    {
-        width: 46.876%; /* 305px */
-        margin-bottom: 0.938em; /* 15px */
-    }
-}
-@media only screen and ( max-width: 20em ) /* 640px */
-{
-    #list
-    {
-        width: 100%;
-        margin-left: 0;
-    }
-        .item
-        {
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
-        }
-}
-
-
-/*
 #wrapper {
 	width: 90%;
 	max-width: 1100px;
@@ -152,4 +108,3 @@ body {
 #columns:hover .pin:not(:hover) {
 	opacity: 0.4;
 }
-*/
