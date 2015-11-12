@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:700);
+body {
+	background: url(/background/cartographer.png) ;
+    margin-bottom: 50px;
+}   
 
 p {
     font-family: "Source Sans Pro", Arial, sans-serif;
-}
-body {
-    margin-bottom: 80px;
 }
 
 h3.project-section{
