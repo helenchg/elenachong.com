@@ -7,7 +7,7 @@ title: Elena Chong Loo
     <h2>Thoughts</h2>
     <hr class="small">
 
-<!--    <div id="wrapper">
+    <div id="wrapper">
         <div id="columns">
             <div class="pin">
                 <img src="/img/Slideshow/20141123_120506.jpg" />
@@ -20,8 +20,7 @@ title: Elena Chong Loo
             </div>
 
             <div class="pin">
-                <a href = "/projects/3dprinter/index.html"></a>
-                <img src="/img/Aboutme.jpg" />
+                <a href = "/projects/3dprinter/index.html"><img src="/img/Aboutme.jpg" /></a>
                 <p>
                     Donec a fermentum nisi. 
                 </p>
@@ -141,32 +140,4 @@ title: Elena Chong Loo
             </div>
         </div>
     </div>
-</div>-->
-<div id = "wrapper">
-    <div id= "list">
-        <div class="item">lasldajdhskflnvlk</div>
-        <div class="item">
-            <img src="/img/ElenaStartup.jpg" />
-            <p>dasdasdl</p>
-        </div>
-    
-    </div>
 </div>
-
-
-<script>
-        $( window ).load( function()
-        {
-            var columns    = 3,
-                setColumns = function() { columns = $( window ).width() > 640 ? 3 : $( window ).width() > 320 ? 2 : 1; };
-
-            setColumns();
-            $( window ).resize( setColumns );
-
-            $( '#list' ).masonry(
-            {
-                itemSelector: '.item',
-                columnWidth:  function( containerWidth ) { return containerWidth / columns; }
-            });
-        });
- </script>
