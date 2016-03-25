@@ -61,6 +61,10 @@ h3.project-section{
 	z-index: 100;
 }
     
+.centered-div{
+    margin: 0 auto;
+    float: none;
+}
 
 /*  Social */
 #social {
@@ -70,6 +74,7 @@ h3.project-section{
     padding: 10px;
    -webkit-transition: right .2s;
 }
+
 
 #social a {
     border: none;
