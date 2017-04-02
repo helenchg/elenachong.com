@@ -1,13 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:700);
+
 body {
 	background: white;
     margin-bottom: 50px;
 }   
 
 p {
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h3.project-section{
@@ -113,10 +114,18 @@ h3.project-section{
     padding-top: 60px;
     
 }
+/*
 .navbar-brand {
     font-size: 25px;
     font-family: 'PT Sans', sans-serif;
 }
+*/
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .container {
     width: 900px;
     background: white;
@@ -125,14 +134,19 @@ html {
   overflow-y: scroll;
 }
 h1{
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h2{
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h3{
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+h4{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*
 h4{
     font-family: "Source Sans Pro", Arial, sans-serif;
 }
+*/
