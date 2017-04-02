@@ -53,6 +53,10 @@
 	column-fill: auto;
 }
 
+img {
+    border-radius: 2%;
+}
+
 .pin {
 	display: inline-block;
 	background: #FEFEFE;
