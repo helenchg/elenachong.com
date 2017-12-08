@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ page.title}} </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href = "/style.css" rel="stylesheet">
+        <meta property="og:title" content="Elena's website"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://www.elenachong.com/"/>
+        <meta property="og:image" content="pictureofhelen.jpg"/>
+        <meta property="og:site_name" content="Elena's Website"/>
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="/css/elena.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <!-- Top Navigation Bar -->
+<div style="width:970px;margin: auto auto;">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand" href="/">ELENA CHONG LOO</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+						<li> <a class = "active" href = "/"> ABOUT </a> </li>
+						<li> <a href = "/projects"> PROJECTS </a> </li>
+                        <li> <a href = "/academic/"> ACADEMIC/CV </a></li>
+                        <li> <a href = "/filmmaking"> FILMMAKING </a> </li>
+                        <li> <a href = "https://www.tinkerall.com/author/chonge/"> TUTORIALS</a></li>
+                        <li> <a href = "/blog/"> MISCELLANEOUS </a> </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">SOCIAL MEDIA <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                    <!--Social Media Links-->
+                              <li> <a href = "http://www.linkedin.com/in/elenachongloo/" >LinkedIn</a></li>
+                              <li> <a href = "https://www.youtube.com/channel/UC8K6zTCAZtnK1vV3HmhknIQ" >YouTube: Filmmaking</a></li>
+                            </ul>
+                        </li>
+                        <!-- END OF SOCIAL MEDIA LINKS -->    
+
+            </ul>   
+        </div>
+        </div>	
+    </nav>
+</div>
+            <!-- END OF TOP NAVIDATION BAR -->
+                        <!--Social Icons -->
+                <ul id="social">
+                    <li><a href="https://github.com/helenchg"><img src="/img/socialmedia/github.png"></a></li>
+                    <li><a href="http://www.linkedin.com/in/elenachongloo"><img src="/img/socialmedia/linkedin.png"></a></li>
+                    <li><a href="mailto:elena@tinkerall.com"><img src="/img/socialmedia/mail.png"></a></li>
+                </ul>
+            {{content}}
+
+                    <!-- Bottom Navigation Bar / Footer -->
+            <div class = "navbar-default navbar-fixed-bottom">
+                <div class = "container">
+                    <p class ="navbar-text">Vr1.2 Site built by Elena Chong Loo, 2015-2017. All rights reserved</p>
+                </div>
+            </div>	
+            <!-- END OF FOOTER-->
+	
+	   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+                    <script src="/js/bootstrap.min.js"></script>
+                    <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-67746055-1', 'auto');
+              ga('send', 'pageview');
+            </script>
+                <script src="/jquery-1.11.3.js"></script>
+    </body>
+</html>

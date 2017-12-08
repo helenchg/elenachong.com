@@ -1,5 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700);
+
 body {
-    margin-bottom: 80px;
+	background: white;
+    margin-bottom: 50px;
+}   
+
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h3.project-section{
@@ -26,6 +35,7 @@ h3.project-section{
 .img-portfolio {
     margin: 0 auto;
     padding-top: 25px;
+    border-radius: 10%;
 
 }
 
@@ -52,6 +62,10 @@ h3.project-section{
 	z-index: 100;
 }
     
+.centered-div{
+    margin: 0 auto;
+    float: none;
+}
 
 /*  Social */
 #social {
@@ -61,6 +75,7 @@ h3.project-section{
     padding: 10px;
    -webkit-transition: right .2s;
 }
+
 
 #social a {
     border: none;
@@ -86,3 +101,49 @@ h3.project-section{
    -webkit-transition: width .2s;
    -webkit-transition: margin .2s;
 }
+.navbar {
+    border-radius: 0px;
+    border-bottom: 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    background-color: white;
+    margin-bottom: 50px;
+    min-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    
+}
+.navbar-brand {
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-default{
+    background-color: white;
+}
+
+.container {
+    width: 900px;
+    background: white;
+}
+html {
+  overflow-y: scroll;
+}
+h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h3{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h4{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*
+h4{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+*/
